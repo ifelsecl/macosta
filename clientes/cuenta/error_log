@@ -1,0 +1,174 @@
+[31-Oct-2014 08:47:40 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.195-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[31-Oct-2014 08:57:25 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.100.34,-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[31-Oct-2014 10:47:11 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Nov-2014 11:39:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.198-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Nov-2014 17:07:24 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Nov-2014 15:40:14 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Dec-2014 15:40:16 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.1.33, 1-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Dec-2014 15:42:12 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.1.33, 1-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Dec-2014 15:42:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.1.33, 1-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Dec-2014 15:46:01 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.1.33, 1-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Dec-2014 15:27:11 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Feb-2015 16:16:34 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[25-Feb-2015 16:29:22 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.197-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Apr-2015 11:11:04 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.196, -Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[10-Apr-2015 10:27:31 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.196, -Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[10-Apr-2015 16:26:50 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.6, 18-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[11-Apr-2015 08:54:36 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.6, 18-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[22-Aug-2015 11:39:03 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.100.200-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/cuenta/index.php(3): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Jun-2016 10:07:30 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[09-Jun-2016 10:07:30 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[09-Jun-2016 10:07:30 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[09-Jun-2016 10:07:30 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[25-Jun-2016 08:48:04 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[25-Jun-2016 08:48:04 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[25-Jun-2016 08:48:04 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[25-Jun-2016 08:48:04 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[21-Sep-2016 08:14:41 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[21-Sep-2016 08:14:41 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[21-Sep-2016 08:14:41 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[21-Sep-2016 08:14:41 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[23-Sep-2016 08:47:13 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[23-Sep-2016 08:47:13 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[23-Sep-2016 08:47:13 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[23-Sep-2016 08:47:13 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[16-Dec-2016 10:55:17 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[16-Dec-2016 10:55:17 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[16-Dec-2016 10:55:17 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[16-Dec-2016 10:55:17 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[17-Mar-2017 09:19:44 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[17-Mar-2017 09:19:44 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[17-Mar-2017 09:19:44 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[17-Mar-2017 09:19:44 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[25-May-2017 16:08:46 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[25-May-2017 16:08:46 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[25-May-2017 16:08:46 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[25-May-2017 16:08:46 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[07-Jun-2017 17:04:33 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[07-Jun-2017 17:04:33 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[07-Jun-2017 17:04:33 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[07-Jun-2017 17:04:33 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[17-Aug-2017 17:45:03 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[17-Aug-2017 17:45:03 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[17-Aug-2017 17:45:03 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[17-Aug-2017 17:45:03 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[11-Oct-2017 16:42:14 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[11-Oct-2017 16:42:14 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[11-Oct-2017 16:42:14 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[11-Oct-2017 16:42:14 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[30-Nov-2017 18:07:33 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[30-Nov-2017 18:07:33 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[30-Nov-2017 18:07:33 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[30-Nov-2017 18:07:33 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499
+[14-Dec-2017 16:12:02 America/Bogota] PHP Warning:  Missing argument 8 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[14-Dec-2017 16:12:02 America/Bogota] PHP Warning:  Missing argument 9 for Cliente::EditarBasico(), called in /home/tranxynw/public_html/logistica/clientes/cuenta/index.php on line 48 and defined in /home/tranxynw/public_html/logistica/class/Cliente.php on line 460
+[14-Dec-2017 16:12:02 America/Bogota] PHP Notice:  Undefined variable: numero_sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 495
+[14-Dec-2017 16:12:02 America/Bogota] PHP Notice:  Undefined variable: sede in /home/tranxynw/public_html/logistica/class/Cliente.php on line 499

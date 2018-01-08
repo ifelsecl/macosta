@@ -1,0 +1,36 @@
+{
+  "name": "logistica",
+  "version": "0.0.1",
+  "authors": [
+    "Edgar Ortega <edgarortegaramirez@gmail.com>"
+  ],
+  "description": "Transportes Mario Acosta",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "alertify": "~0.3.10",
+    "bootstrap2.3.2": "~2.3.2",
+    "bootstrap-switch": "~3.0.2",
+    "font-awesome": "3.2.1",
+    "highcharts": "4.0.3",
+    "hogan": "3.0.2",
+    "jakobmattsson-uploadify": "2.1.4",
+    "jquery": "1.11.1",
+    "jQuery.serializeObject": "~2.0.3",
+    "jquery-backstretch": "2.0.4",
+    "jquery-sapzxc-hashchange": "*",
+    "jquery-ui": "1.11.0",
+    "jqueryui-timepicker-addon": "~1.4.5",
+    "jquery-validation": "1.13.0",
+    "lumen": "*",
+    "pdfobject": "~1.2.0",
+    "typeahead.js": "0.9.3"
+  }
+}

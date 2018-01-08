@@ -1,0 +1,46 @@
+[19-Nov-2014 10:18:14 America/Bogota] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 13697
+[19-Nov-2014 10:19:23 America/Bogota] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5008
+[21-Nov-2014 15:44:11 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Usuario' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/bootstrap.php(10): require('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/seguridad.php(14): require('/home/tranxynw/...')
+#3 /home/tranxynw/public_html/logistica/facturacion/index.php(2): require('/home/tranxynw/...')
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[08-Apr-2015 10:23:57 America/Bogota] PHP Fatal error:  Allowed memory size of 176160768 bytes exhausted (tried to allocate 105 bytes) in /home/tranxynw/public_html/logistica/php/excel/PHPExcel/Worksheet.php on line 1123
+[04-May-2015 17:06:45 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '165' for key 'id_nc'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Factura.php(269): DBManager::execute('UPDATE facturas...')
+#1 /home/tranxynw/public_html/logistica/facturacion/ajax.php(238): Factura::CrearNotaCredito('00000070521', '2015-05-04', 'Por mayor cobra...', '8379')
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[05-Aug-2015 10:47:06 America/Bogota] PHP Fatal error:  Allowed memory size of 176160768 bytes exhausted (tried to allocate 71 bytes) in /home/tranxynw/public_html/logistica/class/Factura.php on line 507
+[29-Jun-2016 10:01:38 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5468
+[29-Jun-2016 10:03:46 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 6750
+[29-Jun-2016 10:04:44 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 13697
+[29-Jun-2016 10:06:25 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 6731
+[29-Jun-2016 10:07:34 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5161
+[11-Jul-2016 11:40:00 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/tranxynw/public_html/logistica/class/Base.php on line 9
+[27-Aug-2016 10:26:11 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) in /home/tranxynw/public_html/logistica/class/Base.php on line 10
+[29-Sep-2016 09:19:41 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8388608 bytes) in /home/tranxynw/public_html/logistica/class/Factura.php on line 507
+[01-Mar-2017 09:43:05 America/New_York] PHP Parse error:  syntax error, unexpected 'Otros' (T_STRING) in /home/tranxynw/public_html/logistica/facturacion/imprimir.php on line 115
+[01-Mar-2017 09:43:17 America/New_York] PHP Parse error:  syntax error, unexpected 'Otros' (T_STRING) in /home/tranxynw/public_html/logistica/facturacion/imprimir.php on line 115
+[12-Apr-2017 11:49:56 America/Bogota] PHP Warning:  Division by zero in /home/tranxynw/public_html/logistica/facturacion/ver.php on line 143
+[26-Apr-2017 11:22:10 America/Bogota] PHP Warning:  Division by zero in /home/tranxynw/public_html/logistica/facturacion/ver.php on line 143
+[08-Sep-2017 10:21:18 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5035
+[08-Sep-2017 10:22:15 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 7934
+[08-Sep-2017 10:27:25 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 7417
+[08-Sep-2017 10:29:07 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4811
+[08-Sep-2017 10:31:40 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 27539
+[08-Sep-2017 10:33:46 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 6011
+[08-Sep-2017 10:35:03 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5936
+[08-Sep-2017 10:42:24 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5036
+[08-Sep-2017 10:52:19 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 6527
+[08-Sep-2017 10:53:15 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 318
+[08-Sep-2017 10:55:49 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 7256
+[08-Sep-2017 11:00:57 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 27578
+[08-Sep-2017 11:01:06 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 13698
+[03-Nov-2017 09:11:54 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 13596
+[23-Nov-2017 11:57:41 America/Bogota] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 5011
+[20-Dec-2017 10:02:13 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home/tranxynw/public_html/logistica/php/excel/PHPExcel/Cell.php on line 532

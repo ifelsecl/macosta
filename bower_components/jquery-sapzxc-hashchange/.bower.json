@@ -1,0 +1,33 @@
+{
+  "name": "jquery-hashchange",
+  "description": "This jQuery plugin enables very basic bookmarkable #hash history via a cross-browser HTML5 window.onhashchange event.",
+  "main": "jquery.ba-hashchange.js",
+  "keywords": [
+    "hashchange",
+    "bookmark",
+    "history"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sapzxc/jquery-hashchange.git"
+  },
+  "dependencies": {
+    "jquery": "1.11.1"
+  },
+  "ignore": [
+    "unit",
+    "shared",
+    "examples",
+    "docs"
+  ],
+  "homepage": "https://github.com/sapzxc/jquery-hashchange",
+  "_release": "1ddfad512e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1ddfad512ea76be7744e0f512e0526b8f29327f6"
+  },
+  "_source": "git://github.com/sapzxc/jquery-hashchange.git",
+  "_target": "*",
+  "_originalSource": "jquery-sapzxc-hashchange"
+}

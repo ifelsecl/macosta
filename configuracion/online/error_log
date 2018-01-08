@@ -1,0 +1,14 @@
+[19-Feb-2014 14:28:15 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'online'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM l...')
+#1 /home/tranxynw/public_html/logistica/class/Usuario.php(173): Base::build_resources('SELECT * FROM l...')
+#2 /home/tranxynw/public_html/logistica/configuracion/online/index.php(3): Usuario::online()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[19-Feb-2014 14:29:02 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'online'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM l...')
+#1 /home/tranxynw/public_html/logistica/class/Usuario.php(173): Base::build_resources('SELECT * FROM l...')
+#2 /home/tranxynw/public_html/logistica/configuracion/online/index.php(3): Usuario::online()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58

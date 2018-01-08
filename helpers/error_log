@@ -1,0 +1,117 @@
+[03-Mar-2015 17:30:16 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[03-Mar-2015 17:30:20 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[03-Mar-2015 17:30:21 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[24-Aug-2015 08:07:08 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[25-Jan-2016 14:39:22 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[25-Jan-2016 14:39:28 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[09-Mar-2016 08:00:43 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[09-Mar-2016 08:00:48 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[09-Mar-2016 08:00:52 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[09-Mar-2016 08:06:29 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[21-Apr-2016 08:22:26 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[21-Apr-2016 08:22:27 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[21-Apr-2016 08:22:32 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[21-Apr-2016 08:22:33 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[21-Apr-2016 08:23:28 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 11
+[28-Apr-2016 16:14:16 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[28-Apr-2016 16:14:19 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[20-Jun-2016 14:44:07 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[20-Jun-2016 14:44:08 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[20-Jun-2016 14:44:10 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[20-Jun-2016 14:44:12 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/helpers/ajax.php on line 15
+[22-Jun-2017 20:35:42] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:50] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:51] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:52] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:53] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:53] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:53] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:54] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:54] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:54] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:35:54] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103
+[22-Jun-2017 20:36:06] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array specifies a non static method but no object' in /home/tranxynw/public_html/logistica/class/SplClassLoader.php:103
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/SplClassLoader.php(103): spl_autoload_register()
+#1 /home/tranxynw/public_html/logistica/class/Logistica.php(17): SplClassLoader->register(Array)
+#2 /home/tranxynw/public_html/logistica/class/Logistica.php(9): Logistica::register_autoloader()
+#3 /home/tranxynw/public_html/logistica/helpers/ajax.php(3): Logistica::initialize()
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/SplClassLoader.php on line 103

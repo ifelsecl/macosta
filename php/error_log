@@ -1,0 +1,194 @@
+[19-Feb-2014 14:14:05 America/Bogota] PHP Warning:  require_once(database_config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No existe el fichero o el directorio in /home/tranxynw/public_html/logistica/class/DBManager.php on line 2
+[19-Feb-2014 14:14:05 America/Bogota] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'database_config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tranxynw/public_html/logistica/class/DBManager.php on line 2
+[19-Feb-2014 14:16:56 America/Bogota] PHP Parse error:  syntax error, unexpected '=' in /home/tranxynw/public_html/logistica/class/database_config.php on line 2
+[19-Feb-2014 14:18:26 America/Bogota] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/tranxynw/public_html/logistica/class/database_config.php on line 3
+[19-Feb-2014 14:18:26 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DATABASE_SERVER' (2) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[19-Feb-2014 14:18:26 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[19-Feb-2014 14:18:42 America/Bogota] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/tranxynw/public_html/logistica/class/database_config.php on line 3
+[19-Feb-2014 14:18:42 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DATABASE_SERVER' (2) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[19-Feb-2014 14:18:42 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[19-Feb-2014 14:19:30 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DATABASE_SERVER' (2) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[19-Feb-2014 14:19:30 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[19-Feb-2014 14:20:14 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'DATABASE_USER'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[19-Feb-2014 14:20:14 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[19-Feb-2014 14:20:36 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No existe la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:51
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 51
+[19-Feb-2014 14:21:44 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'INSERT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logger.php(109): DBManager::execute('INSERT INTO `lo...')
+#1 /home/tranxynw/public_html/logistica/class/Logger.php(78): Logger::create('2', 'Usuarios', 'inici?? sesi??n')
+#2 /home/tranxynw/public_html/logistica/php/login.administrativo.php(34): Logger::usuario('2', 'inici?? sesi??n')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[19-Feb-2014 14:22:45 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'INSERT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logger.php(109): DBManager::execute('INSERT INTO `lo...')
+#1 /home/tranxynw/public_html/logistica/class/Logger.php(78): Logger::create('2', 'Usuarios', 'inici?? sesi??n')
+#2 /home/tranxynw/public_html/logistica/php/login.administrativo.php(34): Logger::usuario('2', 'inici?? sesi??n')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[19-Feb-2014 14:23:37 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'INSERT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logger.php(109): DBManager::execute('INSERT INTO `lo...')
+#1 /home/tranxynw/public_html/logistica/class/Logger.php(78): Logger::create('2', 'Usuarios', 'inici?? sesi??n')
+#2 /home/tranxynw/public_html/logistica/php/login.administrativo.php(34): Logger::usuario('2', 'inici?? sesi??n')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Mar-2014 22:26:27 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:26:27 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[09-Mar-2014 22:29:36 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:29:36 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[09-Mar-2014 22:29:49 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tranxynw_log'@'localhost' (using password: NO) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:29:49 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[09-Mar-2014 22:30:33 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tranxynw_log'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:30:33 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[09-Mar-2014 22:30:50 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tranxynw_log'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:30:50 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[09-Mar-2014 22:33:03 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tranxynw_log'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:33:03 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[09-Mar-2014 22:34:05 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'tranxynw_log'@'localhost' (using password: YES) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[09-Mar-2014 22:34:05 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(14): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[23-May-2014 18:01:22 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[23-May-2014 18:01:22 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[23-May-2014 18:01:22 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[23-May-2014 18:05:57 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[23-May-2014 18:05:57 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[23-May-2014 18:05:57 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[23-May-2014 18:06:08 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[23-May-2014 18:06:08 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[23-May-2014 18:06:08 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[23-May-2014 18:06:09 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[23-May-2014 18:06:09 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[23-May-2014 18:06:09 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[20-Aug-2014 15:35:36 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[20-Aug-2014 15:35:36 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(15): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[20-Aug-2014 15:35:39 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[20-Aug-2014 15:35:39 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(15): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[20-Aug-2014 15:36:04 America/Bogota] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[20-Aug-2014 15:36:04 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/php/login.administrativo.php(15): Logistica::initialize()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[16-Jan-2015 08:41:42 America/Bogota] PH[21-Sep-2015 10:01:34 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[21-Sep-2015 10:01:34 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[21-Sep-2015 10:01:34 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[21-Sep-2015 10:02:24 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[21-Sep-2015 10:02:24 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[21-Sep-2015 10:02:24 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[27-May-2017 17:35:43 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[27-May-2017 17:36:25 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[27-May-2017 17:41:22] PHP Parse error:  syntax error, unexpected T_CONST in /home/tranxynw/public_html/logistica/class/database_config.php on line 2
+[27-May-2017 17:44:53] PHP Parse error:  syntax error, unexpected T_CONST in /home/tranxynw/public_html/logistica/class/database_config.php on line 2
+[27-May-2017 17:51:00] PHP Parse error:  syntax error, unexpected T_CONST in /home/tranxynw/public_html/logistica/class/database_config.php on line 2
+[27-May-2017 17:56:27] PHP Parse error:  syntax error, unexpected T_CONST in /home/tranxynw/public_html/logistica/class/database_config.php on line 2
+[07-Jun-2017 15:52:44 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:52:47 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:52:50 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:52:51 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:52:57 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:05 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:26 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:27 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:38 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:40 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:42 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:44 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:51 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:52 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:53 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:54 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:54 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:53:54 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:03 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:05 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:06 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:09 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:26 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:30 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:33 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:45 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:54:45 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:02 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:04 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:26 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:29 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:31 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:32 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:40 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Jun-2017 15:55:44 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[22-Jun-2017 19:35:58] PHP Parse error:  syntax error, unexpected T_CONST in /home/tranxynw/public_html/logistica/class/database_config.php on line 2
+[30-Aug-2017 17:25:27 America/Bogota] PHP Notice:  Undefined index: nombre in /home/tranxynw/public_html/logistica/class/Logger.php on line 102
+[30-Aug-2017 17:25:27 America/Bogota] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/class/Logger.php on line 103
+[30-Aug-2017 17:25:27 America/Bogota] PHP Notice:  Undefined index: ip in /home/tranxynw/public_html/logistica/class/Logger.php on line 104
+[09-Oct-2017 13:53:54 America/Bogota] PHP Fatal error:  Call to undefined function mysql_connect() in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46

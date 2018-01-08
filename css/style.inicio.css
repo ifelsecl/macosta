@@ -1,0 +1,45 @@
+body, button, input {
+  font-family: Open Sans, Segoe UI, Arial, Helvetica;
+}
+#brand {
+  color: white;
+  text-shadow: 1px 1px 0px black;
+}
+#main {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#actions {
+  margin-top: 10px;
+}
+#slide__caption {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#slide__caption #slide__caption__text {
+  color: white;
+  font-size: 100px;
+  text-shadow: 1px 1px 1px black;
+  line-height: 75px;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  #slide__caption #slide__caption__text { font-size: 80px; }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  #slide__caption #slide__caption__text { font-size: 65px; }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #slide__caption #slide__caption__text { font-size: 50px; }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  #slide__caption { bottom: 5px; left: 10px; }
+  #slide__caption #slide__caption__text { font-size: 30px; }
+}

@@ -1,0 +1,96 @@
+.header_login{
+  width:600px;
+  margin:auto;
+}
+.header_login .header_right{
+  border: #11A4D3;
+  background-color: white;
+  float:right;
+  margin-top:20px;
+  font-size: 13px;
+  text-align:center;
+  padding: 0 5px 10px 5px;
+  border-radius: 7px;
+}
+.header_login .logo a{
+  float:left;
+  margin: 40px 0 5px 0;
+  color: white !important;
+  font-weight: bold;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+}
+.header_right .header_right_title{
+  text-align:center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #256C89;
+  margin-bottom: 10px;
+}
+.header_right .header_right_content{
+  background: transparent url(../img/xls.png) center left no-repeat;
+  padding: 8px 0 8px 30px;
+  margin: 10px;
+}
+.footer_login{
+  width:600px;
+  margin:auto;
+  padding-top: 15px;
+  color: white;
+}
+.left_footer_login{
+  float:left;
+  padding-left:10px;
+  font-weight:bold;
+  text-shadow: 1px 1px 2px black;
+  font-size:13px;
+}
+.right_footer_login{float:right;padding-right:10px;}
+.login_form{
+  height: 250px;
+  border-radius:10px;
+  background-color:#fff;
+  width:600px;
+  margin:0 auto;
+}
+.login_form input{
+  font-size:20px;
+  padding:5px;
+}
+#alertBoxes {
+  height: 32px;
+  text-align: center;
+}
+.box-info, .box-success, .box-alert, .box-error{
+  clear: both;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0px;
+  padding: 5px;
+  text-align:center;
+  background-repeat: no-repeat;
+  background-position: 0px 50%;
+  border-radius: 5px;
+}
+.box-info {
+  color: #00529b;
+  background-color: #bde5f8;
+  border-color: #00529b;
+}
+.box-success {
+  color: #4f8a10;
+  background-color: #dff2bf;
+  border-color: #4f8a10;
+}
+.box-alert {
+  color: #9f6000;
+  background-color: #feefb3;
+  border-color: #9f6000;
+}
+.box-error {
+  color: #d8000c;
+  background-color: #ffbaba;
+  border-color: #d8000c;
+  font-weight: bold;
+}

@@ -1,0 +1,601 @@
+[07-Oct-2014 18:32:46 America/New_York] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'sending authentication information', system error: 32 in /home/tranxynw/public_html/logistica/class/DBManager.php on line 46
+[07-Oct-2014 18:32:52 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message '<h2>No se pudo establecer una conexion con la base de datos</h2>' in /home/tranxynw/public_html/logistica/class/DBManager.php:48
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Logistica.php(10): DBManager::connect()
+#1 /home/tranxynw/public_html/logistica/bootstrap.php(3): Logistica::initialize()
+#2 /home/tranxynw/public_html/logistica/seguridad.php(14): require('/home/tranxynw/...')
+#3 /home/tranxynw/public_html/logistica/logistica/guias/index.php(2): require('/home/tranxynw/...')
+#4 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 48
+[05-Dec-2014 14:25:58 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[05-Dec-2014 14:26:32 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[10-Dec-2014 11:42:31 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[12-Dec-2014 09:52:05 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[12-Feb-2015 19:20:42 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 7
+[08-Apr-2015 11:16:50 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Apr-2015 12:34:33 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Apr-2015 12:36:34 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[23-Apr-2015 11:04:30 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[04-May-2015 11:21:22 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[10-Aug-2015 19:02:37 America/Bogota] PHP Notice:  Undefined index: term in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 7
+[03-Oct-2015 14:34:29 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[22-Jan-2016 13:22:01 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[22-Mar-2016 09:25:19 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 12:44:31 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 12:46:29 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 12:49:53 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 13:04:24 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 13:05:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-02')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 14:31:22 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Jun-2016 14:34:17 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2016-06-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[15-Jun-2016 15:14:15 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[01-Jul-2016 09:12:04 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[01-Jul-2016 09:12:18 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[01-Jul-2016 09:13:25 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Aug-2016 14:24:27 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[05-Sep-2016 11:00:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Oct-2016 16:11:18 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Oct-2016 16:12:03 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[25-Oct-2016 15:22:12 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Oct-2016 15:59:11 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[27-Oct-2016 16:03:42 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[27-Oct-2016 16:04:41 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[27-Oct-2016 16:05:58 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[27-Oct-2016 16:06:23 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[27-Oct-2016 16:09:27 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[27-Oct-2016 16:09:48 America/Bogota] PHP Fatal error:  Call to a member function liquidate() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/ajax.php on line 211
+[15-Dec-2016 16:34:48 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[11-Jan-2017 18:03:17 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0000274983
+0000274982
+0000275026
+0000274854
+ GROUP BY g.id' at line 14' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('0000274844\r\n000...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-01-11')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[12-Jan-2017 17:33:37 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-01-12')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[24-Jan-2017 15:35:23 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-01-24')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[01-Feb-2017 17:53:20 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-02-01')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[02-Feb-2017 16:51:28 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-02-02')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[07-Mar-2017 09:40:39 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-03-03')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Mar-2017 11:52:29 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-03-11')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Mar-2017 11:44:54 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-03-15')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Mar-2017 11:46:56 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-03-15')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[28-Mar-2017 11:21:31 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 14' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('\r\n')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-03-28')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[04-Jul-2017 09:16:02 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[03-Aug-2017 17:22:31 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-07-29')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[19-Aug-2017 11:44:55 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 87 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[19-Aug-2017 11:47:38 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 82 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:03:07 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 82 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:03:26 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 82 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:03:37 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:04:02 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:06:34 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 96 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:31:23 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 76 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[22-Aug-2017 11:31:46 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/tranxynw/public_html/logistica/logistica/guias/informe.php on line 20
+[25-Aug-2017 09:24:15 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY g.id' at line 13' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Guia.php(252): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(507): Guia->find('')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(229): Guia::mark_multiple_as_entregada(Array, '2017-08-23')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[29-Aug-2017 10:56:16 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[11-Sep-2017 10:17:18 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'ci_cl.nombre' in 'where clause'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/DBManager.php(66): DBManager::execute('SELECT COUNT(*)...')
+#1 /home/tranxynw/public_html/logistica/class/PHPPaging.php(1137): DBManager::count('SELECT COUNT(*)...')
+#2 /home/tranxynw/public_html/logistica/logistica/guias/index.php(27): PHPPaging->ejecutar()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:03 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 84
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 87
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 84
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 87
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:25 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 89
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 90
+[19-Sep-2017 13:44:48 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/logistica/guias/papelera.php on line 92
+[07-Oct-2017 11:34:18 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 11:34:19 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 11:34:37 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 11:36:12 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 258
+[07-Oct-2017 11:36:18 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 258
+[07-Oct-2017 21:32:07 America/Bogota] PHP Fatal error:  Cannot redeclare Header() in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 261
+[07-Oct-2017 21:32:12 America/Bogota] PHP Fatal error:  Cannot redeclare Header() in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 261
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined variable: bMargin in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[07-Oct-2017 21:33:59 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[07-Oct-2017 21:34:42 America/Bogota] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 262
+[07-Oct-2017 21:45:25 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 263
+[07-Oct-2017 21:46:07 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 296
+[07-Oct-2017 21:46:56 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 272
+[07-Oct-2017 23:26:03 America/Bogota] PHP Notice:  Undefined variable: cartapdf in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:03 America/Bogota] PHP Fatal error:  Call to a member function setInfo() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:06 America/Bogota] PHP Notice:  Undefined variable: cartapdf in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:06 America/Bogota] PHP Fatal error:  Call to a member function setInfo() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:07 America/Bogota] PHP Notice:  Undefined variable: cartapdf in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:07 America/Bogota] PHP Fatal error:  Call to a member function setInfo() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:09 America/Bogota] PHP Notice:  Undefined variable: cartapdf in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:09 America/Bogota] PHP Fatal error:  Call to a member function setInfo() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:14 America/Bogota] PHP Notice:  Undefined variable: cartapdf in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:14 America/Bogota] PHP Fatal error:  Call to a member function setInfo() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:25 America/Bogota] PHP Notice:  Undefined variable: cartapdf in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:25 America/Bogota] PHP Fatal error:  Call to a member function setInfo() on a non-object in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:44 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:46 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:47 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:26:49 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:27:03 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:28:34 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:28:35 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:28:37 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:28:41 America/Bogota] PHP Fatal error:  Call to undefined method PDF::setInfo() in /home/tranxynw/public_html/logistica/logistica/guias/imprimir.php on line 51
+[07-Oct-2017 23:51:58 America/Bogota] PHP Fatal error:  Cannot redeclare Header() in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 248
+[07-Oct-2017 23:52:00 America/Bogota] PHP Fatal error:  Cannot redeclare Header() in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 248
+[07-Oct-2017 23:53:05 America/Bogota] PHP Fatal error:  Cannot redeclare Header() in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 248
+[07-Oct-2017 23:53:08 America/Bogota] PHP Fatal error:  Cannot redeclare Header() in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 248
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[07-Oct-2017 23:56:30 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[07-Oct-2017 23:59:02 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[08-Oct-2017 00:06:42 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[08-Oct-2017 00:06:47 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[08-Oct-2017 00:08:38 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[08-Oct-2017 00:08:43 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[08-Oct-2017 00:09:58 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 266
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 268
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 269
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 270
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: configuracion in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 271
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined variable: auto_page_break in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 275
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4115
+[08-Oct-2017 00:10:03 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 4134
+[08-Oct-2017 00:16:41 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 274
+[08-Oct-2017 00:16:45 America/Bogota] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_FUNCTION in /home/tranxynw/public_html/logistica/php/tcpdf/PDF.php on line 274
+[08-Oct-2017 00:27:54 America/Bogota] PHP Parse error:  syntax error, unexpected ',' in /home/tranxynw/public_html/logistica/logistica/guias/default.php on line 8
+[08-Oct-2017 00:27:57 America/Bogota] PHP Parse error:  syntax error, unexpected ',' in /home/tranxynw/public_html/logistica/logistica/guias/default.php on line 8
+[08-Oct-2017 00:28:15 America/Bogota] PHP Fatal error:  Call to undefined method PDF::Muticell() in /home/tranxynw/public_html/logistica/logistica/guias/default.php on line 7
+[08-Oct-2017 00:28:17 America/Bogota] PHP Fatal error:  Call to undefined method PDF::Muticell() in /home/tranxynw/public_html/logistica/logistica/guias/default.php on line 7
+[08-Oct-2017 09:48:50 America/Bogota] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/tranxynw/public_html/logistica/logistica/guias/default.php on line 5
+[28-Oct-2017 12:20:19 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'pues del puente de Baru ant es del corregimiento de Ararca.','160000','1','4','0' at line 1' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(42): DBManager::execute('INSERT INTO gui...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(126): Base::_create(Array)
+#2 /home/tranxynw/public_html/logistica/logistica/guias/ajax.php(46): Guia::create(Array)
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58

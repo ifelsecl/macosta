@@ -1,0 +1,232 @@
+/*
+ * Top Menú Bar
+ */
+#topmenu {
+  float:left;
+  margin-top:-1px;
+  width:100%;
+  background: #11a4d3;
+  background: -moz-linear-gradient(top, #11a4d3, #0c7394);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#11a4d3), to(#0c7394));
+  overflow:hidden;
+  position:relative;
+}
+#topmenu ul {
+  width: 90%;
+  clear:left;
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:50%;
+  text-align:center;
+}
+#topmenu ul li {
+  display:block;
+  float:left;
+  list-style:none;
+  width:15%;
+  margin:0;
+  padding:0;
+  position:relative;
+  right:50%;
+}
+#topmenu ul li a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  height: 45px;
+  line-height: 70px;
+  margin: 0;
+  padding: 3px 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+}
+#topmenu ul li a:hover, #topmenu ul li a:focus{
+  background-color:#60C8F2 !important;
+  color:#fff;
+}
+#topmenu ul li a.active,#topmenu ul li a.active:hover {
+  color:#fff;
+  background:#000;
+  font-weight:bold;
+}
+#topmenu ul li a.current{
+  background-color: #60C8F2 !important;
+}
+
+/*
+ * Escritorio
+ */
+.column {width:50%;float:left;}
+.portlet {margin:0 1em 1em 0;}
+.portlet-header {margin: 0.3em; padding:5px 3px;text-shadow:1px 1px 1px #000;}
+.portlet-header .ui-icon { float: right;}
+.portlet-content {padding: 0.4em;}
+.portlet-content table {width:100%;}
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * {visibility: hidden;}
+.portlet-content ul{list-style:none;}
+.portlet select{padding:0; height: 20px;margin: 0;}
+.portlet-content ul li{display:inline;float:left;width:50%;}
+.square{margin:auto;width:auto;height:60px;margin-bottom:3px;text-align:center}
+.square .number{font-size:24px;}
+.square .text{color:gray;}
+
+.guia-activa{
+  padding: 2px 5px;
+  color:white;
+  text-align:center;
+  text-shadow:1px 1px 1px #000;
+  font-weight:bold;
+  background-color: #0099FF;
+}
+.guia-anulada{
+  padding: 2px 5px;
+  color:white;
+  text-align:center;
+  text-shadow:1px 1px 1px #000;
+  font-weight:bold;
+  background-color: #D40808;
+}
+#main-content{
+  padding-bottom: 20px;
+  clear: both;
+}
+
+#center-content {
+  margin: 0px auto;
+  background-color: white;
+}
+
+#footer {
+  padding-top: 15px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+}
+#footer #footer-content .left-footer{
+  font-weight:bold;
+  font-size:13px;
+}
+
+@media (min-width: 1200px) {
+  #center-content, #footer {
+    width: 1170px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-static-top {
+    margin-right: 0;
+  }
+}
+
+.left_content{
+  padding:5px 0 0 5px;
+}
+.right_content, #extra_content{
+  padding:5px 5px 0 5px;
+}
+
+.sidebarmenu{
+  margin:0;
+  padding:0;
+}
+
+.sidebar_box{
+  margin-top:15px;
+  background-color: #ECF8FD;
+  border-radius:5px;
+}
+
+.ayuda,.help{
+  cursor: help;
+  color: #666666;
+}
+.anulado td{background-color: #EC8989 !important;color: white !important;}
+.anulado:hover td{background-color: #C57171 !important;}
+
+.no_resultados,.expand{
+  text-align:center;
+  padding: 30px !important;
+  font-weight: bold;
+}
+.ListaPrecios{
+  font-weight: bold;
+  padding: 10px 10px 10px 33px !important;
+  background: transparent url(../img/listaprecios.png) no-repeat center left;
+}
+
+/* Typeahead */
+.tt-dropdown-menu {
+  text-align: left;
+}
+.typeahead,
+.tt-hint {
+  width: 396px;
+  height: 30px;
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  outline: none;
+}
+
+.typeahead {
+  background-color: #fff;
+}
+
+.typeahead:focus {
+  border: 2px solid #0097cf;
+}
+
+.tt-hint {
+  color: #ccc !important;
+}
+
+.tt-dropdown-menu {
+  width: 422px;
+  margin-top: 0;
+  padding: 4px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 4px 15px;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+  color: #fff;
+  background-color: #0097cf;
+}
+
+.tt-suggestion.tt-is-under-cursor p.client-address {
+  color: #fff;
+}
+
+.tt-suggestion p.client-name {
+  font-weight: bold;
+}
+.tt-suggestion p.client-address {
+  font-size: 12px;
+  color: #999;
+}
+
+.tt-suggestion p {
+  margin: 0;
+}

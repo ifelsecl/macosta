@@ -1,0 +1,60 @@
+body{
+  background:#49C9F9 url(images/fondoWEB.png) repeat-x;
+  font-family: Segoe UI, PT Sans, Arial, Helvetica, sans-serif;
+  font-size:13px;
+}
+.hr-small {margin: 5px 0;}
+.no-margin {margin: 0px;}
+.clear {clear:both;}
+.dialog-shadow {box-shadow: 1px 1px 5px #333;}
+h1, h2, h3 {text-shadow: 1px 1px 2px #ccc;}
+h2, h3 {color: #256c89;}
+label.error{color:red;padding-left:4px;font-size:11px;display:block;}
+
+@media (max-width: 950px) {
+  #logo.brand{font-size: 25px;}
+  #topmenu ul li a {font-size: 12px;}
+}
+@media (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#logo.brand {
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* Bootstrap Custom Styles */
+fieldset.table legend {
+  margin-bottom: 0px;
+  border: none;
+}
+.table td.text-right { text-align: right; }
+
+/* TRANSITION */
+.transition{
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+/* Escritorio */
+.alertasDashboard{width:98%;padding:15px;margin:0 auto;}
+
+.sidebar_box{padding: 1px 4px;}
+
+/* Font for buttons */
+input, button, select, textarea {
+  font-family: Segoe UI,PT Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+/* jQuery UI Custom Styles */
+.ui-dialog .ui-dialog-title{text-shadow: 1px 1px 1px black;}
+.ui-widget{font-family: PT Sans, Segoe UI, Open Sans, Arial;}
+.ui-menu .ui-menu-item{font-size:12.5px; font-weight: normal;}
+.ui-menu .ui-state-focus{margin: 0;}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {font-family: PT Sans,Segoe UI, Arial;}

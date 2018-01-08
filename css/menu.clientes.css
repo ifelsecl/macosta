@@ -1,0 +1,23 @@
+#topmenu a{
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+#mInicio{
+  background:transparent url(../img/inicio.png) no-repeat 50% 5% !important;
+  /*border-left:1px solid white;*/
+}
+#mGuias{
+  background:transparent url(../img/guias.png) no-repeat 50% 5% !important;
+  border-left:1px solid white;
+}
+#mContactos{
+  background:transparent url(../img/contactos.png) no-repeat 50% 5% !important;
+  border-left:1px solid white;
+}
+#mCuenta{
+  background:transparent url(../img/cuenta.png) no-repeat 50% 5% !important;
+  /*border-right:1px solid white;*/
+  border-left:1px solid white;
+}

@@ -1,0 +1,34 @@
+[02-Apr-2014 15:44:01 America/Bogota] PHP Notice:  Undefined property: Relacion::$id in /home/tranxynw/public_html/logistica/class/Base.php on line 14
+[02-Apr-2014 15:44:10 America/Bogota] PHP Notice:  Undefined property: Relacion::$id in /home/tranxynw/public_html/logistica/class/Base.php on line 14
+[02-Apr-2014 15:44:57 America/Bogota] PHP Notice:  Undefined property: Relacion::$id in /home/tranxynw/public_html/logistica/class/Base.php on line 14
+[16-Sep-2014 11:35:47 America/Bogota] PHP Notice:  Undefined index: relacion in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 9
+[16-Sep-2014 11:35:47 America/Bogota] PHP Notice:  Undefined index: tipo in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 11
+[16-Sep-2014 11:35:47 America/Bogota] PHP Notice:  Undefined index: fecha_inicio in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 17
+[16-Sep-2014 11:35:47 America/Bogota] PHP Notice:  Undefined index: fecha_fin in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 18
+[16-Sep-2014 11:35:47 America/Bogota] PHP Notice:  Undefined index: tipos in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 22
+[16-Sep-2014 11:35:47 America/Bogota] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/tranxynw/public_html/logistica/class/Guia.php on line 487
+[16-Sep-2014 11:35:47 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND i.idguia=g.id AND g.formapago IN ('')
+AND g.idestado IN (1, 2, 3, 4) AND g.f' at line 2' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(93): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(490): Base::build_resources('SELECT g.*, SUM...', 'Guia')
+#2 /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php(23): Guia->all_by_formas_de_pago(NULL, NULL, NULL, NULL)
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Sep-2014 16:11:28 America/Bogota] PHP Notice:  Undefined index: relacion in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 9
+[16-Sep-2014 16:11:28 America/Bogota] PHP Notice:  Undefined index: tipo in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 11
+[16-Sep-2014 16:11:28 America/Bogota] PHP Notice:  Undefined index: fecha_inicio in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 17
+[16-Sep-2014 16:11:28 America/Bogota] PHP Notice:  Undefined index: fecha_fin in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 18
+[16-Sep-2014 16:11:28 America/Bogota] PHP Notice:  Undefined index: tipos in /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php on line 22
+[16-Sep-2014 16:11:28 America/Bogota] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/tranxynw/public_html/logistica/class/Guia.php on line 487
+[16-Sep-2014 16:11:28 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND i.idguia=g.id AND g.formapago IN ('')
+AND g.idestado IN (1, 2, 3, 4) AND g.f' at line 2' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(93): DBManager::execute('SELECT g.*, SUM...')
+#1 /home/tranxynw/public_html/logistica/class/Guia.php(490): Base::build_resources('SELECT g.*, SUM...', 'Guia')
+#2 /home/tranxynw/public_html/logistica/facturacion/relaciones/imprimir.php(23): Guia->all_by_formas_de_pago(NULL, NULL, NULL, NULL)
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[22-May-2017 12:09:54 America/Bogota] PHP Notice:  Undefined property: Relacion::$id in /home/tranxynw/public_html/logistica/class/Base.php on line 14
+[22-May-2017 12:14:22 America/Bogota] PHP Notice:  Undefined property: Relacion::$id in /home/tranxynw/public_html/logistica/class/Base.php on line 14
+[22-May-2017 12:15:25 America/Bogota] PHP Notice:  Undefined property: Relacion::$id in /home/tranxynw/public_html/logistica/class/Base.php on line 14

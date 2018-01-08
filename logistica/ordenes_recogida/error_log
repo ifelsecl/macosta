@@ -1,0 +1,14 @@
+[30-Apr-2015 08:48:39 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[30-Apr-2015 08:48:39 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014
+[30-Apr-2015 08:48:58 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[30-Apr-2015 08:48:58 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014
+[30-Apr-2015 08:50:11 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[30-Apr-2015 08:50:12 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014
+[30-Apr-2015 08:51:21 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[30-Apr-2015 08:51:21 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014
+[14-Sep-2015 08:24:31 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[14-Sep-2015 08:24:32 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014
+[14-Sep-2015 08:24:54 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[14-Sep-2015 08:24:54 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014
+[14-Sep-2015 08:25:51 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 22110
+[14-Sep-2015 08:25:51 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php:22110) in /home/tranxynw/public_html/logistica/php/tcpdf/tcpdf.php on line 9014

@@ -1,0 +1,101 @@
+[20-Feb-2014 11:48:14 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Feb-2014 11:49:41 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Feb-2014 10:34:08 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Feb-2014 10:35:01 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Feb-2014 10:30:41 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[05-Mar-2014 11:22:55 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[05-Mar-2014 16:42:16 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[07-Mar-2014 16:28:46 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT command denied to user 'tranxynw_log'@'localhost' for table 'log_logistica'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Base.php(84): DBManager::execute('SELECT * FROM `...')
+#1 /home/tranxynw/public_html/logistica/class/Cliente.php(677): Base::build_resources('SELECT * FROM `...')
+#2 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ver.php(198): Cliente->history()
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Mar-2014 16:36:03 America/New_York] PHP Notice:  Undefined index: userid in /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/impersonar.php on line 12
+[31-May-2014 13:52:55 America/Bogota] PHP Fatal error:  Access to undeclared static property: Vendedor::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 49
+[26-Jul-2016 22:00:38 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Cannot delete or update a parent row: a foreign key constraint fails (`tranxynw_logistica`.`relaciones`, CONSTRAINT `relaciones_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id`))' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Cliente.php(793): DBManager::execute('DELETE FROM cli...')
+#1 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ajax.php(68): Cliente->delete('34279')
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[26-Jul-2016 22:03:11 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Cannot delete or update a parent row: a foreign key constraint fails (`tranxynw_logistica`.`relaciones`, CONSTRAINT `relaciones_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id`))' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Cliente.php(793): DBManager::execute('DELETE FROM cli...')
+#1 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ajax.php(68): Cliente->delete('34279')
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[26-Jul-2016 22:05:14 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Cannot delete or update a parent row: a foreign key constraint fails (`tranxynw_logistica`.`relaciones`, CONSTRAINT `relaciones_ibfk_1` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`id`))' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Cliente.php(793): DBManager::execute('DELETE FROM cli...')
+#1 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ajax.php(68): Cliente->delete('34279')
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[23-Sep-2016 18:06:23 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ROMIGAS','08758000', '',
+'', '', '30', '1',
+'0', '0', '0','0',
+'1', 'si', '',' at line 6' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Cliente.php(77): DBManager::execute('INSERT INTO cli...')
+#1 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ajax.php(7): Cliente->create()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Jul-2017 18:39:10 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARISTI','SHOPING',
+'', 'CRA 27 # 106 - 19 BRR LOS OLIVOS','08001000', '',
+'', ''' at line 5' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Cliente.php(77): DBManager::execute('INSERT INTO cli...')
+#1 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ajax.php(7): Cliente->create()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Jul-2017 18:44:44 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARISTI','SHOPING',
+'', 'CRA 27 # 106 - 19 BRR LOS OLIVOS','08001000', '',
+'', ''' at line 5' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/class/Cliente.php(77): DBManager::execute('INSERT INTO cli...')
+#1 /home/tranxynw/public_html/logistica/cliente_proveedor/clientes/ajax.php(7): Cliente->create()
+#2 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58

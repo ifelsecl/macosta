@@ -1,0 +1,13 @@
+[26-Aug-2015 11:38:59 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[26-Aug-2015 11:39:16 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[26-Aug-2015 11:39:29 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[26-Aug-2015 11:45:20 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[26-Aug-2015 12:08:13 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[26-Aug-2015 12:08:35 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[26-Aug-2015 14:39:12 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[25-Nov-2015 11:40:35 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[25-Nov-2015 11:40:41 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[12-May-2016 17:31:40 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[22-Feb-2017 10:44:15 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[22-Feb-2017 10:44:45 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52
+[22-Feb-2017 10:47:18 America/Bogota] PHP Fatal error:  Access to undeclared static property: Departamento::$attributes in /home/tranxynw/public_html/logistica/class/Base.php on line 52

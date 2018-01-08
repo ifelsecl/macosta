@@ -1,0 +1,196 @@
+[31-Oct-2014 08:47:38 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.195-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[31-Oct-2014 08:57:27 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.100.34,-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[31-Oct-2014 10:47:11 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[05-Nov-2014 15:55:42 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[06-Nov-2014 15:23:46 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Nov-2014 11:39:14 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.198-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[13-Nov-2014 11:39:31 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.198-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Nov-2014 17:01:40 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Nov-2014 17:05:26 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Nov-2014 17:07:22 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Nov-2014 17:07:25 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[20-Nov-2014 17:50:36 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Nov-2014 08:27:56 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.194-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Nov-2014 08:29:09 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.194-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Nov-2014 15:38:34 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[21-Nov-2014 15:42:23 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Dec-2014 15:42:27 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.1.33, 1-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[16-Dec-2014 15:46:00 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.1.33, 1-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[27-Dec-2014 15:27:09 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[19-Jan-2015 13:36:45 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.194-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Feb-2015 16:16:32 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Feb-2015 16:16:40 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.196-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[25-Feb-2015 16:26:20 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.194-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[25-Feb-2015 16:29:20 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.120.197-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[09-Apr-2015 11:11:03 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.196, -Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[10-Apr-2015 10:27:30 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.196, -Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[10-Apr-2015 16:26:49 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.6, 18-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58
+[11-Apr-2015 08:54:35 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Duplicate entry '192.168.2.6, 18-Cliente' for key 'PRIMARY'' in /home/tranxynw/public_html/logistica/class/DBManager.php:58
+Stack trace:
+#0 /home/tranxynw/public_html/logistica/online.php(29): DBManager::execute('INSERT INTO tra...')
+#1 /home/tranxynw/public_html/logistica/clientes/seguridad.php(26): include('/home/tranxynw/...')
+#2 /home/tranxynw/public_html/logistica/clientes/contactos/index.php(2): require('/home/tranxynw/...')
+#3 {main}
+  thrown in /home/tranxynw/public_html/logistica/class/DBManager.php on line 58

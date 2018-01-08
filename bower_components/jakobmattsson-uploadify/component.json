@@ -1,0 +1,11 @@
+{
+  "name": "jakobmattsson-uploadify",
+  "version": "2.1.4",
+  "description": "jQuery plugin for multiple file upload",
+  "main": [
+    "./jquery.uploadify.v2.1.4.js"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.4.2"
+  }
+}

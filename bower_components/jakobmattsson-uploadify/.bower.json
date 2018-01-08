@@ -1,0 +1,21 @@
+{
+  "name": "jakobmattsson-uploadify",
+  "version": "2.1.4",
+  "description": "jQuery plugin for multiple file upload",
+  "main": [
+    "./jquery.uploadify.v2.1.4.js"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.4.2"
+  },
+  "homepage": "https://github.com/jakobmattsson/uploadify",
+  "_release": "2.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.1.4",
+    "commit": "823220b5b19db46f614be33eef715542f7652105"
+  },
+  "_source": "git://github.com/jakobmattsson/uploadify.git",
+  "_target": "2.1.4",
+  "_originalSource": "jakobmattsson-uploadify"
+}

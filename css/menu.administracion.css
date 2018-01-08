@@ -1,0 +1,82 @@
+#topmenu a, ul.sidebarmenu a{
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+#mInicio{
+  background:transparent url(../img/inicio.png) no-repeat 50% 5% !important;
+}
+#mClientes{
+  background:transparent url(../img/clientes.png) no-repeat 50% 5% !important;
+  border-left:1px solid white;
+}
+#mFacturacion{
+  background:transparent url(../img/facturacion.png) no-repeat 50% 5% !important;
+  border-left:1px solid white;
+}
+#mLogistica{
+  background:transparent url(../img/logistica.png) no-repeat 50% 5% !important;
+  border-right:1px solid white;
+  border-left:1px solid white;
+}
+#mConfiguracion{
+  background:transparent url(../img/options.png) no-repeat 50% 5% !important;
+}
+#mManten{
+  background:transparent url(../img/mantenimiento.png) no-repeat 50% 5% !important;
+  border-left:1px solid white;
+}
+ul#menu {
+  font-size: 15px;
+  list-style: none;
+}
+ul#menu li a:hover,ul#menu li a:focus{color:#11A4D3;}
+ul#menu li a{
+  text-decoration:none;
+  color:black;
+  display: block;
+  padding: 7px 1px 7px 35px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.actual{
+  background-color:#11A4D3 !important;
+  color:white !important;
+  text-shadow:1px 1px 1px #111;
+}
+.actual:hover,.actual:focus{color:white !important;}
+
+/* CLIENTES / CONTACTOS */
+#clientes{background: transparent url('../img/clientes.png') no-repeat center left;}
+#vendedores{background: transparent url('../img/vendedores.png') no-repeat center left;}
+#contactos{background: transparent url('../img/contactos.png') no-repeat center left;}
+#cartas{background: transparent url('../img/archivos.png') no-repeat center left;}
+/* FACTURACION */
+#facturacion{background: transparent url('../img/facturacion.png') no-repeat center left}
+#relaciones{background: transparent url('../img/relaciones.png') no-repeat center left}
+/* LOGISTICA */
+#guias{background: url('../img/guias.png') no-repeat transparent center left;}
+#tenedores{background: url('../img/tenedores.png') no-repeat transparent center left;}
+#terceros{background: url('../img/terceros.png') no-repeat transparent center left;}
+#conductores{background: url('../img/conductores.png') no-repeat transparent center left;}
+#propietarios{background: url('../img/propietarios.png') no-repeat transparent center left;}
+#vehiculos{background: url('../img/camiones.png') no-repeat transparent center left;}
+#manifiestos{background: url('../img/manifiestos.png') no-repeat transparent center left;}
+#ordenes_recogida{background: url('../img/ordenes.png') no-repeat transparent center left;}
+#rutas_locales{background: url('../img/ordenes.png') no-repeat transparent center left;}
+#ayudantes{background: transparent url('../img/ayudantes.png') no-repeat center left;}
+#productos{background: transparent url('../img/productos.png') no-repeat center left;}
+#talonarios{background: transparent url('../img/talonarios.png') no-repeat center left;}
+/* CONFIGURACION */
+#embalajes{background: url('../img/embalajes.png') no-repeat transparent center left;}
+#usuarios{background: url('../img/usuarios.png') no-repeat transparent center left;}
+#opciones{background: url('../img/opciones.png') no-repeat transparent center left;}
+#resoluciones{background: url('../img/resoluciones.png') no-repeat transparent center left;}
+#archivos{background: url('../img/archivos.png') no-repeat transparent center left;}
+#online{background: url('../img/ciudades32.png') no-repeat transparent center left;}
+#preguntas{background: url('../img/preguntas.png') no-repeat transparent center left;}
+#backup{background: url('../img/backup.png') no-repeat transparent center left;}
+#ciudades{background: url('../img/ciudades.png') no-repeat transparent center left;}
+#manten{background: url('../img/mantenimiento.png') no-repeat transparent center left;}
