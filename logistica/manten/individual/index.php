@@ -1,30 +1,29 @@
 <?php
 require "../../seguridad.php";
-$vehiculo = Vehiculo::find('UYU272');
-$mantenimientos = $vehiculo->mantenimientos();
+$vehiculo = Vehiculo::find('FCD241');
+$mantenimientos = $vehiculo->_mantenimientos();
 $history = $vehiculo->history();
 ?>
-<div id="individual__show">
-  <button class="btn btn-success pull-right" onclick="regresar()">Regresar</button>
-  <h2>Informe Individual</h2>
-  <form class="form-inline">
-    <table>
-      <tr>
-        <td><label for="relaciones__search_form__cliente">Placa</label></td>
-        <td><label for="relaciones__search_form__fecha_emision">Fecha Inicio</label></td>
-        <td><label for="relaciones__search_form__fecha_emision">Fecha Fin</label></td>
-      </tr>
-      <tr>
-        <td><input type="text" name="placa" id="individual__search_form" class="input-small" value="<?= isset($_GET['cliente']) ? $_GET['cliente'] : '' ?>"></td>
-        <td><input type="text" readonly name="fecha_inicio" id="individual__search_form__fecha_inicio" class="input-small" value="<?= isset($_GET['fecha_inicio']) ? $_GET['fecha_inicio'] : '' ?>"></td>
-        <td><input type="text" readonly name="fecha_fin" id="individual__search_form__fecha_fin" class="input-small" value="<?= isset($_GET['fecha_fin']) ? $_GET['fecha_fin'] : '' ?>"></td>
-        <td><button class="btn btn-info">Buscar</button></td>
-      </tr>
-    </table>
-  </form>
-  <div class="tabbable">
-    <div class="tab-content">
-      <div class="tab-pane active" id="tab_info">
+<div id="individual_container">
+        <h2>Informe Individual</h2>
+        <h3>Datos del vehiculo</h3>
+        <form class="form-inline">
+            <table>
+            <tr>
+                <td><label for="individual__search_form__cliente">Placa</label></td>
+                <td><label for="individual__search_form__fecha_emision">Fecha Inicio</label></td>
+                <td><label for="individual__search_form__fecha_fin">Fecha Fin</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="placa" id="individual__search_form" class="input-small" value=""></td>
+                <td><input type="text" readonly name="fecha_inicio" id="individual__search_form__fecha_inicio" class="input-small" value=""></td>
+                <td><input type="text" readonly name="fecha_fin" id="individual__search_form__fecha_fin" class="input-small" value=""></td>
+                <td><button class="btn btn-info">Buscar</button></td>
+            </tr>
+            </table>
+        </form>
+
+
         <table cellspacing="2" cellpadding="4">
           <tr>
             <td><b>Placa Semiremolque</b></td>
@@ -89,25 +88,129 @@ $history = $vehiculo->history();
             <td><?= $vehiculo->fecha_matricula ?></td>
           </tr>
         </table>
-      </div>
-      </div>
-    </div>
-  </div>
+
+        <div class="tabbable">
+            <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#tab_soat">SOAT</a></li>
+            <li><a data-toggle="tab" href="#tab_seguro">Seguro</a></li>
+            <li><a data-toggle="tab" href="#tab_top">Tarjeta de Operacion</a></li>
+            <li><a data-toggle="tab" href="#tab_rtm">Revisión Téc. Mec.</a></li>
+            </ul>
+            <div class="tab-content">
+                    <div class="tab-pane active" id="tab_soat">
+                        <div class="row-fluid">
+                            <fieldset class="span6 table">
+                                <table class="table table-condensed">
+                                <tr>
+                                    <td>Número:</td>
+                                    <td><?= $vehiculo->soat ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha vencimiento:</td>
+                                    <td>
+                                    <?= strftime('%B %d, %Y',strtotime($vehiculo->f_venc_soat)) ?>
+                                    </td>
+                                </tr>
+                                </table>
+                            </fieldset><!-- SOAT -->
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab_seguro">
+                        <div class="row-fluid">
+                            <fieldset class="span6 table">
+                                <table class="table">
+                                <tr>
+                                    <td>Número:</td>
+                                    <td><?= $vehiculo->num_seguro ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha vencimiento:</td>
+                                    <td><?= strftime('%B %d, %Y',strtotime($vehiculo->f_venc_seguro)) ?></td>
+                                </tr>
+                                </table>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab_top">
+                        <div class="row-fluid">
+                            <fieldset class="span6 table">
+                                <table class="table">
+                                <tr>
+                                    <td>Número:</td>
+                                    <td><?= $vehiculo->t_operacion ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha afiliacón:</td>
+                                    <td><?= strftime('%B %d, %Y', strtotime($vehiculo->fecha_afiliacion)) ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha vencimiento:</td>
+                                    <td><?= strftime('%B %d, %Y', strtotime($vehiculo->f_venc_toperacion)) ?></td>
+                                </tr>
+                                </table>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab_rtm">
+                        <div class="row-fluid">
+                            <fieldset class="span6 table">
+                                <table class="table">
+                                <tr>
+                                    <td>Número:</td>
+                                    <td><?= $vehiculo->tecnico_meca ?></td>
+                                </tr>
+                                <tr>
+                                    <td>Fecha vencimiento:</td>
+                                    <td>
+                                    <?= strftime('%B %d, %Y',strtotime($vehiculo->f_venc_tmec)) ?>
+                                    </td>
+                                </tr>
+                                </table>
+                            </fieldset>
+                        </div>
+                    </div>
+        </div>
+        <h3>Mantenimientos</h3>
+        <table id="vehiculo-mantenimientos" class="table table-hover table-condensed table-bordered">
+          <thead>
+            <tr>
+              <th>Mantenimiento (Trabajo)</th>
+              <th>Fecha</th>
+              <th>KM</th>
+              <th>Tipo</th>
+              <th>Precio</th>
+              <th>Factura</th>
+              <th>Observación</th>
+              <th>Adjunto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php
+            foreach ($mantenimientos as $m) {
+              echo "<tr><td>".$m->mantenimiento_nombre."</td>";
+              echo "<td>".$m->fecha."</td>";
+              echo "<td>".$m->mantenimiento_kilometraje."</td>";
+              echo "<td>".$m->tipo."</td>";
+              echo "<td>".$m->precio."</td>";
+              echo "<td></td>";
+              echo "<td>".$m->observacion."</td>";
+              echo "<td><a href='#'>ADJUNTO</a></td></tr>";
+            }
+            ?>
+          </tbody>
+        </table>
+
+        
 </div>
 <script>
 (function(){
-  LOGISTICA.mantenimientos.individual = function() {
-    var $el = $('#relaciones_container');
+    var $el = $('#individual_container');
     var $searchBtn = $el.find('form button');
 
-    var openForm = function() {
-      cargarExtra(relaciones_path+'crear.php');
-    };
 
     var loadData = function(e) {
       e.preventDefault();
-      $searchBtn.prop('disabled', true).text('Buscando...');
-      cargarPrincipal(relaciones_path + '?' + $(this).serialize());
+      //cargarPrincipal(individual_path + '?' + $(this).serialize());
     };
 
     var datepickerAttributes = {
@@ -122,15 +225,9 @@ $history = $vehiculo->history();
       maxDate: 0
     };
 
-    var init = function() {
-      $el.find('#relaciones__search_form__fecha_emision').datepicker(datepickerAttributes);
-      $el.find('#relaciones__new').click(openForm);
-      $el.find('form').submit(loadData);
-    };
-    return {init: init}
-  }();
+    $el.find('#individual__search_form__fecha_inicio').datepicker(datepickerAttributes);
+    $el.find('#individual__search_form__fecha_fin').datepicker(datepickerAttributes);
 
-  LOGISTICA.mantenimientos.individual.init();
 })();
 </script>
 

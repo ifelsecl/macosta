@@ -100,6 +100,9 @@ WHERE placa='$this->placa'";
     return $this->mantenimientos = VehiculoMantenimiento::search(array('vehiculo_placa' => $this->placa));
   }
 
+  function _mantenimientos() {
+    return $this->mantenimientos = VehiculoMantenimiento::search(array('vehiculo_placa' => $this->placa), false);
+  }
   function activo() {
     return $this->activo == 'si';
   }
