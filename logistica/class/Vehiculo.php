@@ -100,8 +100,8 @@ WHERE placa='$this->placa'";
     return $this->mantenimientos = VehiculoMantenimiento::search(array('vehiculo_placa' => $this->placa));
   }
 
-  function _mantenimientos() {
-    return $this->mantenimientos = VehiculoMantenimiento::search(array('vehiculo_placa' => $this->placa), false);
+  function _mantenimientos($fecha_inicio, $fecha_fin) {
+    return $this->mantenimientos = VehiculoMantenimiento::search(array('vehiculo_placa' => $this->placa, 'fecha_inicio' => $fecha_inicio, 'fecha_fin' => $fecha_fin), false);
   }
   function activo() {
     return $this->activo == 'si';
@@ -193,7 +193,7 @@ AND l.codigomarca=m.codigo_Marcas AND c.idconfiguracion=con.id";
   static function search($params, $return_sql = false) {
     foreach ($params as $key => $value) $params[$key] = DBManager::escape($value);
     $where = "";
-    if (isset($params['placa']) and ! empty($params['placa'])) {
+    if (isset($params['placa']) and ! empty($params['placa']) ) {
       $where = " AND c.placa LIKE '%".$params['placa']."%'";
     }
     $sql = self::sql_base()." ".$where;

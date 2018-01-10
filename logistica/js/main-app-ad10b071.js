@@ -88,6 +88,7 @@ var helpers_path = "helpers/",
     resoluciones_path = configuracion_path + "resoluciones/",
     mantenimiento_path = "manten/",
     individual_path = mantenimiento_path + "individual/",
+    general_path = mantenimiento_path + "general/",
     c = '<p class="expand"><img src="css/ajax-loader.gif" /> Cargando...</p>';
 $.validator.setDefaults({
     ignore: []

@@ -24,12 +24,20 @@ WHERE m.id=vh.mantenimiento_id AND vh.id='$id'";
 
   static function search($params, $return_sql = false) {
     $f_placa = '';
-    if (isset($params['vehiculo_placa'])) {
-      $f_placa = "AND vh.vehiculo_placa LIKE '%".$params['vehiculo_placa']."%'";
+    if (isset($params['vehiculo_placa']) and ! (isset($params['is_general']) and $params['is_general'])) {
+      $f_placa .= "AND vh.vehiculo_placa LIKE '%".$params['vehiculo_placa']."%'";
+    }
+    if (isset($params['fecha_inicio']) and ! empty($params['fecha_inicio'])) {
+      $f_placa .= " AND vh.fecha >= '".$params['fecha_inicio']."'";
+    }
+    if (isset($params['fecha_fin']) and ! empty($params['fecha_fin'])) {
+      $f_placa .= " AND vh.fecha <= '".$params['fecha_fin']."'";
     }
     $sql = "SELECT vh.*, m.nombre mantenimiento_nombre, m.kilometraje mantenimiento_kilometraje
 FROM ".self::$table." vh, ".Mantenimiento::$table." m
-WHERE m.id=vh.mantenimiento_id $f_placa";
+WHERE m.id=vh.mantenimiento_id ". $f_placa;
+    if(isset($params['is_general']) and $params['is_general'] )
+      $sql .= " order by vh.vehiculo_placa asc";
     if ($return_sql) return $sql;
     return parent::build_resources($sql, __CLASS__);
   }

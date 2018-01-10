@@ -1,13 +1,51 @@
 <?php
 require "../../seguridad.php";
-$vehiculo = Vehiculo::find('FCD241');
-$mantenimientos = $vehiculo->_mantenimientos();
+$placa = isset($_GET['placa']) ? $_GET['placa'] : 'FCD241';
+$fecha_inicio = isset($_GET['fecha_inicio']) ? $_GET['fecha_inicio'] : '';
+$fecha_fin = isset($_GET['fecha_fin']) ? $_GET['fecha_fin'] : '';
+$vehiculo = Vehiculo::find($placa);
+$mantenimientos = $vehiculo->_mantenimientos($fecha_inicio, $fecha_fin);
 $history = $vehiculo->history();
 ?>
+<style>
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+</style>
 <div id="individual_container">
-        <h2>Informe Individual</h2>
-        <h3>Datos del vehiculo</h3>
-        <form class="form-inline">
+        <h2>Informe Individual:</h2>
+        
+        <form id="fBuscar" class="form-inline">
             <table>
             <tr>
                 <td><label for="individual__search_form__cliente">Placa</label></td>
@@ -15,15 +53,15 @@ $history = $vehiculo->history();
                 <td><label for="individual__search_form__fecha_fin">Fecha Fin</label></td>
             </tr>
             <tr>
-                <td><input type="text" name="placa" id="individual__search_form" class="input-small" value=""></td>
-                <td><input type="text" readonly name="fecha_inicio" id="individual__search_form__fecha_inicio" class="input-small" value=""></td>
-                <td><input type="text" readonly name="fecha_fin" id="individual__search_form__fecha_fin" class="input-small" value=""></td>
-                <td><button class="btn btn-info">Buscar</button></td>
+                <td><input type="text" name="placa" id="placa" class="input-small" value="<?= $placa ?>"></td>
+                <td><input type="text" readonly name="fecha_inicio" id="fecha_inicio" class="input-small" value="<?= $fecha_inicio ?>"></td>
+                <td><input type="text" readonly name="fecha_fin" id="fecha_fin" class="input-small" value="<?= $fecha_fin ?>"</td>
+                <td><button id="bBuscar" class="btn btn-info">Buscar</button></td>
             </tr>
             </table>
         </form>
 
-
+        <h3>Datos del vehiculo: <?= $vehiculo->placa ?></h3>
         <table cellspacing="2" cellpadding="4">
           <tr>
             <td><b>Placa Semiremolque</b></td>
@@ -186,6 +224,8 @@ $history = $vehiculo->history();
           </thead>
           <tbody>
             <?php
+            if(empty($mantenimientos))
+                echo "<tr><td>No se encontraron registros...</td></tr>";
             foreach ($mantenimientos as $m) {
               echo "<tr><td>".$m->mantenimiento_nombre."</td>";
               echo "<td>".$m->fecha."</td>";
@@ -200,10 +240,37 @@ $history = $vehiculo->history();
           </tbody>
         </table>
 
+        <h3>Revisiones</h3>
+
+        <div class="multiselect">
+            <div class="selectBox" onclick="showCheckboxes()">
+            <select>
+                <option>Seleccione...</option>
+            </select>
+            <div class="overSelect"></div>
+            </div>
+            <div id="checkboxes">
+            <label for="one">
+                <input type="checkbox" id="one" /><a href="https://gradcollege.okstate.edu/sites/default/files/PDF_linking.pdf" target="_blank">Revisión 1</a></label>
+            <label for="two">
+                <input type="checkbox" id="two" />Revisión 2</label>
+            <label for="three">
+                <input type="checkbox" id="three" />Revision 3</label>
+            </div>
+        </div>
+
         
 </div>
 <script>
 (function(){
+    $('#fBuscar').submit(function(e){
+    e.preventDefault();
+    if ($('#placa').val()=='') return;
+   // $('#bBuscar').button('disable').button('option', 'label', 'Buscando...');
+    cargarPrincipal(individual_path+"?"+$(this).serialize());
+  });
+
+
     var $el = $('#individual_container');
     var $searchBtn = $el.find('form button');
 
@@ -225,9 +292,21 @@ $history = $vehiculo->history();
       maxDate: 0
     };
 
-    $el.find('#individual__search_form__fecha_inicio').datepicker(datepickerAttributes);
-    $el.find('#individual__search_form__fecha_fin').datepicker(datepickerAttributes);
+    $el.find('#fecha_inicio').datepicker(datepickerAttributes);
+    $el.find('#fecha_fin').datepicker(datepickerAttributes);
 
+    
 })();
+var expanded = false;
+function showCheckboxes() {
+    var checkboxes = document.getElementById("checkboxes");
+    if (!expanded) {
+        checkboxes.style.display = "block";
+        expanded = true;
+    } else {
+        checkboxes.style.display = "none";
+        expanded = false;
+    }
+    }
 </script>
 

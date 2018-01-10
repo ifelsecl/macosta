@@ -9,7 +9,7 @@
   <ul id="menu" class="sidebarmenu">
     <?php
       echo '<li><a href="#Manten/Individual" id="vehiculos">Individual</a></li>';
-      echo '<li><a href="#Configuracion/Embalajes" id="talonarios">General</a></li>';
+      echo '<li><a href="#Manten/General" id="talonarios">General</a></li>';
     ?>
   </ul>
   <div class="sidebar_box visible-desktop">
