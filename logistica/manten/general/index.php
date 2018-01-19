@@ -38,12 +38,41 @@ $mantenimientos = VehiculoMantenimiento::search(array("fecha_inicio" => $fecha_i
 #checkboxes label:hover {
   background-color: #1e90ff;
 }
+
+#vehiculo-datos{
+    width:100%;
+}
+.form-control, #fBuscar{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-control {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-control img {
+    margin-left: 3px;
+}
 </style>
+<script>
+$(document).ready(function(){
+    $('#vehiculo-mantenimientos').DataTable({
+        dom: 'Bfrtip',
+        fixedHeader: true,
+        buttons: [
+            'copy', 'excel', 'pdf', 'print'
+        ]
+    });
+});
+</script>
 <div id="individual_container">
         <h2>Informe General:</h2>
         
         <form id="fBuscar" class="form-inline">
-            <table>
+            <table class="form-control">
             <tr>
                 <td><label for="individual__search_form__fecha_emision">Fecha Inicio</label></td>
                 <td><label for="individual__search_form__fecha_fin">Fecha Fin</label></td>
@@ -74,13 +103,16 @@ $mantenimientos = VehiculoMantenimiento::search(array("fecha_inicio" => $fecha_i
             if(empty($mantenimientos))
                 echo "<tr><td>No se encontraron registros...</td></tr>";
             foreach ($mantenimientos as $m) {
-                echo "<tr><td>".$m->vehiculo_placa."</td>";
-                echo "<td>".$m->mantenimiento_nombre."</td>";
-                echo "<td>".$m->fecha."</td>";
-                echo "<td>".$m->mantenimiento_kilometraje."</td>";
-                echo "<td>".$m->tipo."</td>";
-                echo "<td>".$m->precio."</td>";
-                echo "<td>".$m->observacion."</td></tr>";
+                    $vehiculo = Vehiculo::find($m->vehiculo_placa);
+                    if($vehiculo->activo == 'si'){
+                        echo "<tr><td>".$m->vehiculo_placa."</td>";
+                        echo "<td>".$m->mantenimiento_nombre."</td>";
+                        echo "<td>".$m->fecha."</td>";
+                        echo "<td>".$m->mantenimiento_kilometraje."</td>";
+                        echo "<td>".$m->tipo."</td>";
+                        echo "<td>".$m->precio."</td>";
+                        echo "<td>".$m->observacion."</td></tr>";
+                    }
             }
             ?>
           </tbody>

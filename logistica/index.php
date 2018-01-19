@@ -16,6 +16,9 @@ require_once 'php/Nonce.inc.php';
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" media="all" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css">
+
   <?php
   echo bower_css_component('bootstrap2.3.2/bootstrap/css/bootstrap.min');
   echo bower_css_component('bootstrap2.3.2/bootstrap/css/bootstrap-responsive.min');
@@ -113,7 +116,17 @@ require_once 'php/Nonce.inc.php';
   echo bower_js_component('bootstrap-switch/dist/js/bootstrap-switch.min');
   echo bower_js_component('hogan/web/builds/3.0.2/hogan-3.0.2.min');
   echo bower_js_component('typeahead.js/dist/typeahead.min');
-  ?>
+  ?>  
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+
   <script src="js/main-app-ad10b071.js"></script>
   <?= google_analytics() ?>
 </body>

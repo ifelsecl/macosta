@@ -5,6 +5,7 @@
   exit;
 }*/
 ?>
+
 <div class="span2 left_content">
   <ul id="menu" class="sidebarmenu">
     <?php

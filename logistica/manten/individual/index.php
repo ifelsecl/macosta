@@ -41,12 +41,51 @@ $history = $vehiculo->history();
 #checkboxes label:hover {
   background-color: #1e90ff;
 }
+
+#individual_container{
+    margin: 0 auto;
+}
+
+#vehiculo-datos{
+    width:100%;
+}
+.form-control, #fBuscar{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-control {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-control img {
+    margin-left: 3px;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus{
+    background-color: #19aee7 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.tabbable{
+    margin-top:10px;
+}
+
+.tab-content fieldset{
+    width:100% !important;
+}
+
+
 </style>
 <div id="individual_container">
         <h2>Informe Individual:</h2>
         
         <form id="fBuscar" class="form-inline">
-            <table>
+            <table class="form-control">
             <tr>
                 <td><label for="individual__search_form__cliente">Placa</label></td>
                 <td><label for="individual__search_form__fecha_emision">Fecha Inicio</label></td>
@@ -62,7 +101,7 @@ $history = $vehiculo->history();
         </form>
 
         <h3>Datos del vehiculo: <?= $vehiculo->placa ?></h3>
-        <table cellspacing="2" cellpadding="4">
+        <table id="vehiculo-datos" cellspacing="2" cellpadding="4">
           <tr>
             <td><b>Placa Semiremolque</b></td>
             <td><?= $vehiculo->placa_semiremolque ?></td>
@@ -212,6 +251,7 @@ $history = $vehiculo->history();
         <table id="vehiculo-mantenimientos" class="table table-hover table-condensed table-bordered">
           <thead>
             <tr>
+                <th>placa</th>
               <th>Mantenimiento (Trabajo)</th>
               <th>Fecha</th>
               <th>KM</th>
@@ -224,17 +264,20 @@ $history = $vehiculo->history();
           </thead>
           <tbody>
             <?php
-            if(empty($mantenimientos))
+            if(empty($mantenimientos) || $vehiculo->activo == 'no')
                 echo "<tr><td>No se encontraron registros...</td></tr>";
-            foreach ($mantenimientos as $m) {
-              echo "<tr><td>".$m->mantenimiento_nombre."</td>";
-              echo "<td>".$m->fecha."</td>";
-              echo "<td>".$m->mantenimiento_kilometraje."</td>";
-              echo "<td>".$m->tipo."</td>";
-              echo "<td>".$m->precio."</td>";
-              echo "<td></td>";
-              echo "<td>".$m->observacion."</td>";
-              echo "<td><a href='#'>ADJUNTO</a></td></tr>";
+            else{ 
+                foreach ($mantenimientos as $m) {
+                    echo "<tr><td>".$m->vehiculo_placa."</td>";
+                    echo "<td>".$m->mantenimiento_nombre."</td>";
+                    echo "<td>".$m->fecha."</td>";
+                    echo "<td>".$m->mantenimiento_kilometraje."</td>";
+                    echo "<td>".$m->tipo."</td>";
+                    echo "<td>".$m->precio."</td>";
+                    echo "<td></td>";
+                    echo "<td>".$m->observacion."</td>";
+                    echo "<td><a href='#'>ADJUNTO</a></td></tr>";
+                }
             }
             ?>
           </tbody>
@@ -274,11 +317,12 @@ $history = $vehiculo->history();
     var $el = $('#individual_container');
     var $searchBtn = $el.find('form button');
 
-
-    var loadData = function(e) {
-      e.preventDefault();
-      //cargarPrincipal(individual_path + '?' + $(this).serialize());
-    };
+    $('#vehiculo-mantenimientos').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'excel', 'pdf', 'print'
+        ]
+    } );
 
     var datepickerAttributes = {
       changeMonth: true,
