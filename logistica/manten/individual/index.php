@@ -1,11 +1,16 @@
 <?php
 require "../../seguridad.php";
-$placa = isset($_GET['placa']) ? $_GET['placa'] : 'FCD241';
-$fecha_inicio = isset($_GET['fecha_inicio']) ? $_GET['fecha_inicio'] : '';
-$fecha_fin = isset($_GET['fecha_fin']) ? $_GET['fecha_fin'] : '';
-$vehiculo = Vehiculo::find($placa);
-$mantenimientos = $vehiculo->_mantenimientos($fecha_inicio, $fecha_fin);
-$history = $vehiculo->history();
+if(isset($_GET['placa'])){
+    $placa = isset($_GET['placa']) ? $_GET['placa'] : '';
+    $fecha_inicio = isset($_GET['fecha_inicio']) ? $_GET['fecha_inicio'] : '';
+    $fecha_fin = isset($_GET['fecha_fin']) ? $_GET['fecha_fin'] : '';
+    $vehiculo = Vehiculo::find($placa);
+    $mantenimientos = $vehiculo->_mantenimientos($fecha_inicio, $fecha_fin);
+}else{
+    $placa = '';
+    $fecha_inicio = '';
+    $fecha_fin =  '';
+}
 ?>
 <style>
 .multiselect {
@@ -78,8 +83,6 @@ $history = $vehiculo->history();
 .tab-content fieldset{
     width:100% !important;
 }
-
-
 </style>
 <div id="individual_container">
         <h2>Informe Individual:</h2>
@@ -99,7 +102,9 @@ $history = $vehiculo->history();
             </tr>
             </table>
         </form>
-
+        <?php
+if(!empty($vehiculo)){
+    ?>
         <h3>Datos del vehiculo: <?= $vehiculo->placa ?></h3>
         <table id="vehiculo-datos" cellspacing="2" cellpadding="4">
           <tr>
@@ -251,15 +256,15 @@ $history = $vehiculo->history();
         <table id="vehiculo-mantenimientos" class="table table-hover table-condensed table-bordered">
           <thead>
             <tr>
-                <th>placa</th>
-              <th>Mantenimiento (Trabajo)</th>
-              <th>Fecha</th>
-              <th>KM</th>
-              <th>Tipo</th>
-              <th>Precio</th>
-              <th>Factura</th>
-              <th>Observación</th>
-              <th>Adjunto</th>
+                <th>Placa</th>
+                <th>Mantenimiento (Trabajo)</th>
+                <th>Fecha</th>
+                <th>KM</th>
+                <th>Tipo</th>
+                <th>Precio</th>
+                <th>Factura</th>
+                <th>Observación</th>
+                <th>Adjunto</th>
             </tr>
           </thead>
           <tbody>
@@ -302,6 +307,10 @@ $history = $vehiculo->history();
             </div>
         </div>
 
+        <?php
+    }
+    ?>
+
         
 </div>
 <script>
@@ -309,7 +318,6 @@ $history = $vehiculo->history();
     $('#fBuscar').submit(function(e){
     e.preventDefault();
     if ($('#placa').val()=='') return;
-   // $('#bBuscar').button('disable').button('option', 'label', 'Buscando...');
     cargarPrincipal(individual_path+"?"+$(this).serialize());
   });
 
@@ -320,7 +328,31 @@ $history = $vehiculo->history();
     $('#vehiculo-mantenimientos').DataTable( {
         dom: 'Bfrtip',
         buttons: [
-            'copy', 'excel', 'pdf', 'print'
+            {
+                extend: 'copyHtml5',
+                exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+                }
+            }, 
+            {
+                extend: 'excelHtml5',
+                exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+                }
+            }, 
+            {
+                extend: 'pdfHtml5',
+                exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+                }
+            }
+            ,
+            {
+                extend: 'print',
+                exportOptions: {
+                    columns: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+                }
+            }
         ]
     } );
 
