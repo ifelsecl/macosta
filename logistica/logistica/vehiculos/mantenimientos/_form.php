@@ -30,7 +30,7 @@ $mantenimientos = Mantenimiento::all();
       <input type="text" id="vehiculo_mantenimiento_fecha" name="vehiculo_mantenimiento[fecha]" readonly="readonly" class="input-small" value="<?= $vehiculo_mantenimiento->fecha ?>" />
     </div>
   </div>
-  <div class="control-group">
+  <div class="control-group mantenimiento">
     <label class="control-label" for="vehiculo_mantenimiento_tipo">Tipo:</label>
     <div class="controls">
       <select id="vehiculo_mantenimiento_tipo" name="vehiculo_mantenimiento[tipo]">
@@ -44,16 +44,22 @@ $mantenimientos = Mantenimiento::all();
       </select>
     </div>
   </div>
-  <div class="control-group">
+  <div class="control-group mantenimiento">
     <label class="control-label" for="vehiculo_mantenimiento_precio">Precio:</label>
     <div class="controls">
       <input type="text" id="vehiculo_mantenimiento_precio" name="vehiculo_mantenimiento[precio]" value="<?= $vehiculo_mantenimiento->precio ?>" />
     </div>
   </div>
-  <div class="control-group">
+  <div class="control-group mantenimiento">
     <label class="control-label" for="vehiculo_mantenimiento_observacion">Observación:</label>
     <div class="controls">
       <textarea id="vehiculo_mantenimiento_observacion" name="vehiculo_mantenimiento[observacion]"><?= $vehiculo_mantenimiento->observacion ?></textarea>
+    </div>
+  </div>
+  <div class="control-group revision oculto">
+    <label class="control-label" for="vehiculo_mantenimiento_numero_revision">Numero de revisión:</label>
+    <div class="controls">
+      <input type="text" id="vehiculo_mantenimiento_numero_revision" name="vehiculo_mantenimiento[numero_revision]" value="<?= $vehiculo_mantenimiento->numero_revision ?>" />
     </div>
   </div>
   <div class="form-actions no-margin">
@@ -62,6 +68,28 @@ $mantenimientos = Mantenimiento::all();
 </form>
 <script>
 (function() {
+
+  var mantenId = $("#vehiculo_mantenimiento_mantenimiento_id").val();
+  var renderRevision =  function(id){
+    if(id == 40){
+        $(".mantenimiento").removeClass("visible").addClass("oculto");
+        $(".revision").removeClass("oculto").addClass("visible");
+        $("#vehiculo_mantenimiento_tipo").val("Examen");
+        $("#vehiculo_mantenimiento_precio").val("0");
+        $("#vehiculo_mantenimiento_observacion").val("N/A");
+      }else{
+        $(".revision").removeClass("visible").addClass("oculto");
+        $(".mantenimiento").removeClass("oculto").addClass("visible");
+        $("#vehiculo_mantenimiento_tipo").val("");
+        $("#vehiculo_mantenimiento_precio").val("");
+      }
+  };
+  renderRevision(mantenId);
+
+  $("#vehiculo_mantenimiento_mantenimiento_id").change(function(){
+      renderRevision($(this).val()); 
+  });
+
   var Mantenimiento = {
     id: $('#vehiculo_mantenimiento_id').val(),
     $el: $('#form-mantenimiento'),

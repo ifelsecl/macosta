@@ -287,25 +287,41 @@ if(!empty($vehiculo)){
             ?>
           </tbody>
         </table>
+        <?php
+            if(!empty($mantenimientos))
+             {
+            ?>
+            <h3>Revisiones</h3>
 
-        <h3>Revisiones</h3>
 
-        <div class="multiselect">
-            <div class="selectBox" onclick="showCheckboxes()">
-            <select>
-                <option>Seleccione...</option>
-            </select>
-            <div class="overSelect"></div>
-            </div>
-            <div id="checkboxes">
-            <label for="one">
-                <input type="checkbox" id="one" /><a href="https://gradcollege.okstate.edu/sites/default/files/PDF_linking.pdf" target="_blank">Revisión 1</a></label>
-            <label for="two">
-                <input type="checkbox" id="two" />Revisión 2</label>
-            <label for="three">
-                <input type="checkbox" id="three" />Revision 3</label>
-            </div>
-        </div>
+            <table id="vehiculo-mantenimientos-revisiones" class="table table-hover table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Numero de revisión</th>
+                        <th>Fecha</th>
+                        <th>Adjunto</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(empty($mantenimientos) || $vehiculo->activo == 'no')
+                        echo "<tr><td>No se encontraron registros...</td></tr>";
+                    else{ 
+                        foreach ($mantenimientos as $m) {
+                            if($m->mantenimiento_id == "40"){
+                                echo "<tr><td>".$m->numero_revision."</td>";
+                                echo "<td>".$m->fecha."</td>";
+                                echo "<td><a href='#'>ADJUNTO</a></td></tr>";
+                            }
+                        }
+                    }
+                    ?>
+                </tbody>
+                </table>
+            <?php
+        }
+        ?>
 
         <?php
     }
@@ -351,6 +367,37 @@ if(!empty($vehiculo)){
                 extend: 'print',
                 exportOptions: {
                     columns: [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+                }
+            }
+        ]
+    } );
+
+    $('#vehiculo-mantenimientos-revisiones').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            {
+                extend: 'copyHtml5',
+                exportOptions: {
+                    columns: [ 0, 1]
+                }
+            }, 
+            {
+                extend: 'excelHtml5',
+                exportOptions: {
+                    columns: [ 0, 1]
+                }
+            }, 
+            {
+                extend: 'pdfHtml5',
+                exportOptions: {
+                    columns: [ 0, 1]
+                }
+            }
+            ,
+            {
+                extend: 'print',
+                exportOptions: {
+                    columns: [ 0, 1]
                 }
             }
         ]
