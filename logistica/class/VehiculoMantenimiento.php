@@ -2,7 +2,7 @@
 class VehiculoMantenimiento extends Base {
 
   static $table = 'vehiculos_mantenimientos';
-  static $attributes = array('id', 'vehiculo_placa', 'mantenimiento_id', 'fecha', 'tipo', 'precio', 'observacion', 'numero_revision');
+  static $attributes = array('id', 'vehiculo_placa', 'mantenimiento_id', 'fecha', 'tipo', 'precio', 'observacion', 'numero_revision', 'numero_factura');
   static $tipos = array('Examen', 'Cambio', 'Puesta a punto');
 
   function __construct($params = array()) {

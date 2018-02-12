@@ -56,6 +56,12 @@ $mantenimientos = Mantenimiento::all();
       <textarea id="vehiculo_mantenimiento_observacion" name="vehiculo_mantenimiento[observacion]"><?= $vehiculo_mantenimiento->observacion ?></textarea>
     </div>
   </div>
+  <div class="control-group mantenimiento">
+    <label class="control-label" for="vehiculo_mantenimiento_numero_factura">Numero de Factura:</label>
+    <div class="controls">
+      <input type="text" id="vehiculo_mantenimiento_numero_factura" name="vehiculo_mantenimiento[numero_factura]" value="<?= $vehiculo_mantenimiento->numero_factura ?>" />
+    </div>
+  </div>
   <div class="control-group revision oculto">
     <label class="control-label" for="vehiculo_mantenimiento_numero_revision">Numero de revisión:</label>
     <div class="controls">
@@ -77,11 +83,10 @@ $mantenimientos = Mantenimiento::all();
         $("#vehiculo_mantenimiento_tipo").val("Examen");
         $("#vehiculo_mantenimiento_precio").val("0");
         $("#vehiculo_mantenimiento_observacion").val("N/A");
+        $("#vehiculo_mantenimiento_numero_factura").val("N/A");
       }else{
         $(".revision").removeClass("visible").addClass("oculto");
         $(".mantenimiento").removeClass("oculto").addClass("visible");
-        $("#vehiculo_mantenimiento_tipo").val("");
-        $("#vehiculo_mantenimiento_precio").val("");
       }
   };
   renderRevision(mantenId);

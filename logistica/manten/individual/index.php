@@ -102,6 +102,7 @@ if(isset($_GET['placa'])){
             </tr>
             </table>
         </form>
+        <p class="expand oculto"><img src="css/ajax-loader.gif" /> Cargando...</p>
         <?php
 if(!empty($vehiculo)){
     ?>
@@ -273,15 +274,17 @@ if(!empty($vehiculo)){
                 echo "<tr><td>No se encontraron registros...</td></tr>";
             else{ 
                 foreach ($mantenimientos as $m) {
+                    $pdfs = RemoteFile::process("f", array($m->numero_factura), IP());
+                    $pdf = $pdfs[0];
                     echo "<tr><td>".$m->vehiculo_placa."</td>";
                     echo "<td>".$m->mantenimiento_nombre."</td>";
                     echo "<td>".$m->fecha."</td>";
                     echo "<td>".$m->mantenimiento_kilometraje."</td>";
                     echo "<td>".$m->tipo."</td>";
                     echo "<td>".$m->precio."</td>";
-                    echo "<td></td>";
+                    echo "<td>".$m->numero_factura."</td>";
                     echo "<td>".$m->observacion."</td>";
-                    echo "<td><a href='#'>ADJUNTO</a></td></tr>";
+                    echo "<td><a data-url='".$pdf->url."' class='file'>ADJUNTO</a></td></tr>";
                 }
             }
             ?>
@@ -310,9 +313,11 @@ if(!empty($vehiculo)){
                     else{ 
                         foreach ($mantenimientos as $m) {
                             if($m->mantenimiento_id == "40"){
+                                $pdfs = RemoteFile::process("r", array($m->numero_revision), IP());
+                                $pdf = $pdfs[0];
                                 echo "<tr><td>".$m->numero_revision."</td>";
                                 echo "<td>".$m->fecha."</td>";
-                                echo "<td><a href='#'>ADJUNTO</a></td></tr>";
+                                echo "<td><a data-url='".$pdf->url."' class='file'>ADJUNTO</a></td></tr>";
                             }
                         }
                     }
@@ -326,18 +331,40 @@ if(!empty($vehiculo)){
         <?php
     }
     ?>
-
+<div id="dialog" title="Información">
+  <p>No se ha encontrado el archivo solicitado.</p>
+</div>
         
 </div>
 <script>
+var dialog;
 (function(){
     $('#fBuscar').submit(function(e){
     e.preventDefault();
+    $(".expand").show();
     if ($('#placa').val()=='') return;
     cargarPrincipal(individual_path+"?"+$(this).serialize());
+    $(".expand").hide();
   });
 
 
+  dialog = $( "#dialog" ).dialog({
+      autoOpen: false,
+      modal: true,
+      buttons: {
+        Ok: function() {
+            $( this ).dialog( "close" );
+          }
+      }
+    });
+    $(".file").on("click", function(e){
+        e.preventDefault();
+        if($(this).attr("data-url") != "")
+            window.open($(this).attr("data-url"));
+        else
+            dialog.dialog("open"); 
+
+    });
     var $el = $('#individual_container');
     var $searchBtn = $el.find('form button');
 

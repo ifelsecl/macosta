@@ -12,7 +12,7 @@ if (! isset($_GET['id'])) {
 $guia = new Guia;
 if (! $guia->find($_GET['id'])) exit('No existe la guía.');
 $tipos = Cliente::$tipos_identificacion;
-$pdfs = RemoteFile::process(array($guia->id), IP());
+$pdfs = RemoteFile::process("g", array($guia->id), IP());
 $pdf = $pdfs[0];
 ?>
 <?php if (isset($_SESSION['permisos'][GUIAS_IMPRIMIR])) {

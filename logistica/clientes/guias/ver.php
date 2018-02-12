@@ -8,7 +8,7 @@ if (! isset($_GET['id'])) {
 }
 $guia = new Guia;
 if (! $guia->find($_GET['id'])) exit('No existe la guía.');
-$pdfs = RemoteFile::process(array($guia->id, IP()));
+$pdfs = RemoteFile::process("g", array($guia->id), IP());
 $pdf = $pdfs[0];
 ?>
 <style>

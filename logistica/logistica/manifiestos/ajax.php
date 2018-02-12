@@ -221,7 +221,7 @@ if (isset($_POST['guardar'])) {
     // print_r($pdfs);
     foreach ($manifiesto->guias as $guia) {
       if ($guia->idestado == 3) {
-        $pdfs = RemoteFile::process(array($guia->id));
+        $pdfs = RemoteFile::process("g", array($guia->id));
         $pdf = $pdfs[0];
         if ($pdf->found and $guia->mark_as_entregada($_POST['fecha_entrega'])) {
           Logger::guia($guia->id, 'marcó la guía como ENTREGADA');

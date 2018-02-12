@@ -4,9 +4,9 @@ class RemoteFile {
   static $username = 'TransM';
   static $password = 'Cma#2013!';
 
-  static function process($ids, $ip = null) {
+  static function process($document_type, $ids, $ip = null) {
     $params = '';
-    foreach ($ids as $id) $params .= 'g[]='.$id.'&';
+    foreach ($ids as $id) $params .= $document_type.'[]='.$id.'&';
     $process = curl_init(self::$url.'?'.$params.'ip='.$ip);
     if (!$process) exit('Not Initialized!');
     curl_setopt($process, CURLOPT_USERPWD, self::$username.':'.self::$password);
